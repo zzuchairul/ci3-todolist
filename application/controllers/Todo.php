@@ -33,7 +33,8 @@ class Todo extends CI_Controller
         }
 
         // Menampilkan view 
-        $this->load->view('templates/header');
+        $data['judul'] = 'Todolist';
+        $this->load->view('templates/header', $data);
         $this->load->view('todo/index', $data);
         $this->load->view('templates/footer');
     }
@@ -42,7 +43,8 @@ class Todo extends CI_Controller
     public function change()
     {
         // Menampilkan view
-        $this->load->view('templates/header');
+        $data['judul'] = 'Change List';
+        $this->load->view('templates/header', $data);
         $this->load->view('todo/change');
         $this->load->view('templates/footer');
     }
