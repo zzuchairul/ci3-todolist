@@ -25,10 +25,6 @@ class Migration_Biodata extends CI_Migration
             'tgl_lahir' => array(
                 'type' => 'DATETIME'
             ),
-            'hobi' => array(
-                'type' => 'VARCHAR',
-                'constraint' => '100',
-            ),
             'motto' => array(
                 'type' => 'TEXT',
                 'null' => TRUE,
