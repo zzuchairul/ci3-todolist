@@ -1,6 +1,4 @@
 <h2>Welcome To Homepage</h2>
-<a href="/todolist/Todo">Tugas 1</a>
-<br><br>
-<a href="/todolist/Biodata">Tugas 2</a>
-<br><br>
+<p><a href="/todolist/Todo">TodoList</a>: Tugas 1</p>
+<p><a href="/todolist/Biodata">Biodata</a>Tugas 2</p>
 <a href="/todolist/About">About</a>
